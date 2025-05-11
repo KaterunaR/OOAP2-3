@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3</title>
+</head>
+<body>
+
+    <h1>Система замовлень Фастфуду</h1>
+    <select id="orderInput">
+        <option value="" selected disabled>Виберіть замовлення</option>
+        <option value="картопля фрі">картопля фрі</option>
+        <option value="бургер">бургер</option>
+        <option value="чізбургер">чізбургер </option>
+        <option value="кола">кола</option>
+        <option value="нагетси">нагетси</option>
+    </select>
+    <button id="addOrderBtn">Додати замовлення</button>
+    <button id="undoBtn">Скасувати останню дію</button>
+
+    <div id="orders">
+        <h2>Поточні замовлення:</h2>
+        <div id="orderList">Замовлень немає</div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
